@@ -1,0 +1,18 @@
+html
+    head
+    body
+        script
+            |window.onload=function(){
+
+            |}//  |表示原样输出
+        script.
+            window.onload=function(){
+            }// .表示所有下一级内容原样输出
+        div
+        script
+            include ../a.js
+        div
+            我的名字：#{name}
+            -var a=5;
+            -var b=6;
+            总和：#{a+b}

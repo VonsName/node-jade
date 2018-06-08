@@ -1,8 +1,13 @@
 html
     head
+        script(src="a.js")
         body
-            div
-                ul
-                    li
+            div(style="width:200px;color:'red'") 29
+            div(class="aaa active")//使用字符串加载class
+            div(class=['aaa','active'])//使用数组动态加载class
+            div.box//生成class
+            div#user//生成id
+                ul(style={width:'200px',height:'20px'})
+                    li 30
                     li
                     li
